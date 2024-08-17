@@ -17,8 +17,7 @@
 <br>
 
 ## Overview
-This project has been confirmed to be issue-free as of August 18, 2024. If any issues occur during execution, please refer to the official API documentation: <br>
-https://platform.openai.com/docs/overview.
+This project has been confirmed to be issue-free as of August 18, 2024. If any issues occur during execution, please refer to the official <a href="https://platform.openai.com/docs/overview" target="_blank">API documentation</a>
 <br>
 <br>
 
