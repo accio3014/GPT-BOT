@@ -73,11 +73,11 @@ chmod +x ~/GPT-BOT/GPT_BOT.py
 
 **#2 Create an Alias**:
 
-Bash shell
+Bash shell:
 ```bash
 echo "alias GPT-BOT='python3 ~/GPT-BOT/GPT_BOT.py'" >> ~/.bashrc
 ```
-Zsh shell
+Zsh shell:
 ```bash
 echo "alias GPT-BOT='python3 ~/GPT-BOT/GPT_BOT.py'" >> ~/.zshrc
 ```
@@ -85,11 +85,11 @@ echo "alias GPT-BOT='python3 ~/GPT-BOT/GPT_BOT.py'" >> ~/.zshrc
 
 **#3 Apply**:
 
-Bash shell
+Bash shell:
 ```bash
 source ~/.bashrc
 ```
-Zsh shell
+Zsh shell:
 ```bash
 source ~/.zshrc
 ```
