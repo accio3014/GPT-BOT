@@ -2,6 +2,7 @@
 
 - [GPT-BOT](#gpt-bot)
   - [Overview](#overview)
+    - [Demo Video](#demo-video)
   - [Installation](#installation)
     - [Requirements](#requirements)
   - [Usage](#usage)
@@ -16,6 +17,12 @@
 <br>
 
 ## Overview
+This project has been confirmed to be issue-free as of August 18, 2024. If any issues occur during execution, please refer to the official API documentation: <br>
+https://platform.openai.com/docs/overview.
+<br>
+<br>
+
+### Demo Video
 
 <br>
 <br>
