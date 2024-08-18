@@ -22,8 +22,7 @@ This project has been confirmed to be issue-free as of August 18, 2024. If any i
 <br>
 
 ### Demo Video
-<iframe width="560" height="315" src="https://youtu.be/6UsDfMRtTOs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Watch the GPT-BOT Demo on YouTube](https://img.youtube.com/vi/6UsDfMRtTOs/0.jpg)](https://youtu.be/6UsDfMRtTOs)
 <br>
 <br>
 
