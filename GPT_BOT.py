@@ -4,7 +4,7 @@ from pathlib import Path
 import openai
 import pyaudio
 
-client = openai.OpenAI(api_key='your api key')      # https://platform.openai.com/api-keys
+client = openai.OpenAI(api_key='your_api_key')      # https://platform.openai.com/api-keys
 
 def record_audio() -> str:
     recognizer = sr.Recognizer()
@@ -39,7 +39,7 @@ def get_gpt4_response(transcription: str) -> str:
     user_message = transcription + " Please respond concisely, as if talking in a real conversation."
     
     response = client.chat.completions.create(
-        model="choice api models",                  # https://platform.openai.com/docs/models/models-overview
+        model="choice_api_models",                  # https://platform.openai.com/docs/models/models-overview
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": user_message}
@@ -54,7 +54,7 @@ def stream_to_speakers(text: str) -> None:
 
     with client.audio.speech.with_streaming_response.create(
         model="tts-1",
-        voice="choice voice options",               # https://platform.openai.com/docs/guides/text-to-speech/voice-options
+        voice="choice_voice_options",               # https://platform.openai.com/docs/guides/text-to-speech/voice-options
         response_format="pcm",
         input=text,
     ) as response:
